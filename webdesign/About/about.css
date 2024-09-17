@@ -133,6 +133,25 @@ div .about_btn{
     box-sizing: content-box;
 
 }
+.about_btn{
+    cursor: pointer;
+    padding: 12px 25px;
+}
+div .about_btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.about_btn:hover{
+    
+    background-color: rgb(137, 75, 5);
+    transition: 0.5s;
+}
+
+div .about_btn:hover i{
+    transform: translateX(7px);
+    transition: 0.3s;
+}
 
 /*Team*/
 

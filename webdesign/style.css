@@ -91,6 +91,7 @@ section .main .men_text h1{
     position: relative;
     top: -90px;
     left: 20px;
+    cursor: pointer;
 }
 
 section .main .men_text h1 span{
@@ -99,6 +100,10 @@ section .main .men_text h1 span{
     font-family: mv boli;
     line-height: 22px;
     font-size: 70px;
+}
+section .main .men_text h1 span:hover{
+    color: #3b11f6;
+    transition: 0.7s
 }
 
 section .main .main_image img{
@@ -127,7 +132,7 @@ section .main_btn{
     transition: 0.5s;
 }
 
-section .main_btn p{
+section .main_btn a{
     color: #fff;
     margin-right: 5px;
     text-decoration: none;
@@ -144,6 +149,11 @@ section .main_btn:hover{
 }
 section .main_btn:hover i{
     transform: translateX(7px);
+}
+
+div .hbr:hover{
+    color: aqua;
+    transition: 0.3s;
 }
 /* Team */
 
