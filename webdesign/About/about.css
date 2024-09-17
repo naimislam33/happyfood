@@ -99,7 +99,13 @@ section nav .icon i:hover{
     color: #fac031;
     margin-right: 15px;
     font-family: mv boli;
+    cursor: pointer;
 }
+.about .about_main .about_text h1 span:hover{
+    color: turquoise;
+    transition: .7s;
+}
+
 
 .about .about_main .about_text h1{
     font-size: 55px;

@@ -87,6 +87,8 @@ section nav .icon i:hover{
     font-size: 55px;
     display: flex;
     align-items: center;
+
+
     justify-content: center;
     margin-bottom: 30px;
 }
@@ -95,6 +97,11 @@ section nav .icon i:hover{
     color: #fac031;
     margin-left: 15px;
     font-family: mv boli;
+    cursor: pointer;
+}
+.menu h1 span:hover{
+    color: turquoise;
+    transition: .7;
 }
 
 .menu h1 span::after{
@@ -208,9 +215,13 @@ section nav .icon i:hover{
     justify-content: center;
     text-decoration: none;
     color: white;
-    background: #000;
+    background: #dbc606;
     padding: 8px 10px;
     margin: 0 80px;
     transition: 0.3s;
+}
+.menu .menu_box .menu_card .menu_info .menu_btn:hover{
+    background-color: #fac031;
+    transition: .7s;
 }
 

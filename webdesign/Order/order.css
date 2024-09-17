@@ -97,6 +97,12 @@ section nav .icon i:hover{
     color: #fac031;
     margin-right: 15px;
     font-family: mv boli;
+    cursor: pointer;
+
+}
+.order h1 span:hover{
+    color: turquoise;
+    transition: .7s;
 }
 
 .order h1 span::after{
@@ -155,4 +161,10 @@ section nav .icon i:hover{
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
+
 }
+.order .order_main form .order_btn:hover{
+    background-color:rgb(137, 75, 5);
+    transition: .7s ;
+}
+
