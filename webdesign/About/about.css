@@ -118,8 +118,11 @@ section nav .icon i:hover{
     margin-right: 30px;
     line-height: 22px;
 }
-
-.about .about_btn{
+div .about_btn{
+    height: 16px;
+    width: 90px;
+}
+div .about_btn{
     background: #fac031;
     padding: 12px 25px;
     text-decoration: none;
@@ -127,6 +130,8 @@ section nav .icon i:hover{
     position: relative;
     left: 55%;
     bottom: 30px;
+    box-sizing: content-box;
+
 }
 
 /*Team*/
