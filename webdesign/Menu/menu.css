@@ -221,7 +221,7 @@ section nav .icon i:hover{
     transition: 0.3s;
 }
 .menu .menu_box .menu_card .menu_info .menu_btn:hover{
-    background-color: #fac031;
+    background-color:  rgb(137, 75, 5);
     transition: .7s;
 }
 
