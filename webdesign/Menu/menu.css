@@ -87,8 +87,6 @@ section nav .icon i:hover{
     font-size: 55px;
     display: flex;
     align-items: center;
-
-
     justify-content: center;
     margin-bottom: 30px;
 }
@@ -98,6 +96,9 @@ section nav .icon i:hover{
     margin-left: 15px;
     font-family: mv boli;
     cursor: pointer;
+}
+#menu h1 span{
+    text-decoration: none;
 }
 .menu h1 span:hover{
     color: turquoise;
